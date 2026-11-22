@@ -1,0 +1,21 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+.packages*/
+.vscode/
+
+# Dataset images and labels
+data/images/
+data/labels/
+data/_dataset_match_check/
+
+# Training outputs and temporary experiments
+runs/
+runs_directml/
+_torch_directml_check/
+
+# Checkpoints and temporary files
+*.backup*
+*.tmp
